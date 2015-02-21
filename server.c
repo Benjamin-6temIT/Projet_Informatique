@@ -11,11 +11,6 @@
 
 
 
-void error( char *msg ) {
-    puts(  msg );
-    exit(1);
-}
-
 int func( int a ) {
     return 2 * a;
 }
